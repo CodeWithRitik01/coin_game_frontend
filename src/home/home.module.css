@@ -1,0 +1,71 @@
+.outterDiv{
+    margin-top: 20px;
+    display: grid;
+}
+
+.topDiv{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+
+.topSubDiv{
+    height: 100px;
+    width: 400px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.centerEle{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.centerEle > p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.coinTrack{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coinTrack > img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.astro:hover{
+    cursor: pointer;
+    
+}
+
+.astro{
+    align-self: center;
+    justify-self: center;
+}
+
+.astro:active{
+    height: 150px;
+    width: 150px;    
+}
+
+.coinTrack > h1{
+    color: rgb(230, 230, 1);
+}
+
+@media (max-width:768px){
+   .topSubDiv{
+    width: 150px;
+   }
+  
+   
+}

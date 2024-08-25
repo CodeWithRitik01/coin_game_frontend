@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    bottom: 0%;
+}
+
+.allIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsDiv{
+    margin:10px;
+}
+
+.iconsDiv > img{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 0;
+}
+
+.iconsDiv > p{
+    margin-top: 0;
+    margin-bottom: 0;
+}

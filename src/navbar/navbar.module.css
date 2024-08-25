@@ -1,0 +1,65 @@
+.main{
+    width: 100VW;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+.logoDiv{
+    height: 70%;
+    width: 120px;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    background-color: rgb(74, 74, 74);
+    justify-content: space-around;
+
+}
+
+.logoDiv > h2{
+    color: white;
+    font-size: 15px;
+}
+
+.logo{
+height: 40px;
+width: 40px;
+border-radius: 20px;
+}
+  
+
+.otherNav:hover{
+    cursor: pointer;
+}
+
+.otherLinksDiv{
+    width: 180px;
+    height: 70%;
+    background-color: rgb(1, 209, 209);
+    margin-right: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.otherLinksDiv > img{
+   height: 30px;
+   width: 30px;
+}
+
+
+
+
+@media (max-width:768px){
+    .logo{
+       height: 90%;
+    }
+    .logoDiv > h2{
+        font-size: 20px;
+    }
+   
+}
