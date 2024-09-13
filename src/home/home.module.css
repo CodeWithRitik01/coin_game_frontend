@@ -1,6 +1,8 @@
 .outterDiv{
     margin-top: 20px;
     display: grid;
+    overflow-y: scroll;
+    height: 75vh;
 }
 
 .topDiv{
@@ -14,7 +16,7 @@
 .topSubDiv{
     height: 100px;
     width: 400px;
-    background-color: rgb(48, 48, 48);
+    background-color: black;
     border-radius: 10px;
     text-align: center;
 }
@@ -24,6 +26,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    position: relative;
+
 }
 
 .centerEle > p{
@@ -62,9 +66,33 @@
     color: rgb(230, 230, 1);
 }
 
+.progressBar{
+    position: relative;
+    left: 42%;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(rgb(241, 53, 1) 2deg, rgb(125, 124, 124) 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progressBar::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: black;
+}
+
 @media (max-width:768px){
    .topSubDiv{
     width: 150px;
+   }
+   .progressBar{
+    left: 30%;
    }
   
    

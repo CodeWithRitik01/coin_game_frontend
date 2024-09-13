@@ -1,0 +1,53 @@
+.outterDiv{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.inviteButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.inviteButton > button{
+    border: 0;
+    height: 50px;
+    width: 30%;
+    border-radius: 20px;
+    background:linear-gradient(to right, rgb(254, 254, 158), goldenrod);
+    font-size: 25px;
+    
+}
+
+.airdropContainer{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.airdrops{
+    height: 50%;
+    width: 60%;
+    background-color: rgb(48, 47, 48);
+    padding: 20px;
+}
+
+.airdropItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10;
+}
+
+.airdropItems > h3{
+   margin: 0;
+}
+
+.airdropItems > img{
+    height: 30px;
+    width: 30px;
+}
