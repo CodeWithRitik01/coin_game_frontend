@@ -2,7 +2,6 @@
 import { useEffect, useRef, useState } from "react"
 import styles from "./home.module.css"
 import axios from "axios"
-import { circularProgressClasses } from "@mui/material";
 
 function Home(){
     const [coinNumber, setCoinNumber] = useState(0);
