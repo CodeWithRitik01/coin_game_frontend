@@ -1,10 +1,16 @@
 # TapMe App
 
 ## Desktop view
-![Screenshot (333)](https://github.com/user-attachments/assets/58f6f8fb-a08a-46ef-bbd1-d2b00bae81da)
+![Screenshot (345)](https://github.com/user-attachments/assets/15eb4d9a-8aae-485a-acc7-7be7a89f79bd)
+![Screenshot (344)](https://github.com/user-attachments/assets/55031da5-56fe-4e34-88f9-f53c60b7c09f)
+![Screenshot (341)](https://github.com/user-attachments/assets/ff167a21-3c16-414c-a8b9-470182e4933d)
+![Screenshot (340)](https://github.com/user-attachments/assets/603d6c05-f105-41ef-b19a-4234f83116b7)
+![Screenshot (343)](https://github.com/user-attachments/assets/286375ef-8420-4207-8576-bd4be5f9b193)
+
 
 ## Mobile view
-![Screenshot (332)](https://github.com/user-attachments/assets/9bcc5f9a-6a7d-460d-8898-33da0b502e01)
+![Screenshot (346)](https://github.com/user-attachments/assets/28e4ae33-7091-42c2-b2cc-18a07d9575a8)
+
 
 ## Getting Started
 ### Prerequisites
